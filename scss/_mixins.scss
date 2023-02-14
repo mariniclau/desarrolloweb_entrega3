@@ -1,0 +1,24 @@
+//extend
+.navbar{
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                color: $keyColor; 
+                font-size: $textMd;
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.header{
+    @extend .navbar;
+    background-image: linear-gradient(to bottom, $mainColor, $secondaryColor); 
+}
+
+.footer{
+    @extend .navbar;
+    background-image: linear-gradient(to top, $mainColor, $secondaryColor); 
+}

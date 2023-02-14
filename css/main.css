@@ -1,3 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@100;300&display=swap");
+.navbar .navbar-nav .nav-item .nav-link, .footer .navbar-nav .nav-item .nav-link, .header .navbar-nav .nav-item .nav-link {
+  color: #844C9C;
+  font-size: 1.5em;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover, .footer .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:hover {
+  color: white;
+}
+
+.header {
+  background-image: linear-gradient(to bottom, #FB9B1C, #f8c37d);
+}
+
+.footer {
+  background-image: linear-gradient(to top, #FB9B1C, #f8c37d);
+}
 
 /*# sourceMappingURL=main.css.map */
