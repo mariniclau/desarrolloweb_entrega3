@@ -13,12 +13,12 @@
     }
 }
 
-.header{
-    @extend .navbar;
-    background-image: linear-gradient(to bottom, $mainColor, $secondaryColor); 
+//mixins
+@mixin btn-gral($bgColor,$color){
+    background-color: $bgColor;
+    color: $color;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-color: $color;   
 }
 
-.footer{
-    @extend .navbar;
-    background-image: linear-gradient(to top, $mainColor, $secondaryColor); 
-}
